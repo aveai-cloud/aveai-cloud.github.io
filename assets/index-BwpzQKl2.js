@@ -1,0 +1,1 @@
+import{_ as r,x as s,h as a,o as c,r as _}from"./index-DT-wo-ax.js";const m={name:"Back",beforeRouteEnter(e,n,o){console.log("to.name ",e.name),e.name!=="Login"&&!s.state.bot.accessToken?o({name:"Login"}):o()}};function i(e,n,o,p,f,l){const t=_("router-view");return c(),a(t)}const d=r(m,[["render",i]]);export{d as default};
